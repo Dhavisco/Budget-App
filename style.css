@@ -197,7 +197,8 @@ body {
 
 .income {
 	float: left;
-	width: 475px;
+	max-width: 475px;
+	margin-right: 50px;
 	margin-right: 50px;
 }
 
@@ -307,4 +308,17 @@ h2 {
 }
 .unpaid:hover .item__description {
 	font-weight: 900;
+}
+
+/*media Query*/
+@media only screen and (max-width: 1020px) {  
+    .income {
+		margin-left:15px;
+		width: 450px;
+		
+	}
+
+	.expenses {
+		width: 450px;
+	}
 }
